@@ -1,1 +1,274 @@
+.container{
+box-shadow: 1px 1px 1px 1px;
+border-radius: 20px;
+width:1100px;
+background-color: #ec8832;
+margin: 0 auto;
 
+}
+
+
+.gore {
+width:auto;
+margin-bottom: 20px;
+border-radius: 20px;
+position: relative;
+text-align: center;
+color: black;
+background-image: url(images/pattern.jpg);
+}
+
+.gore img{
+    border-radius: 20px;
+    background-color: aliceblue;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    box-shadow: 2px 3px 3px 1px;
+}
+
+.bck {
+
+    border-radius: 20px;
+}
+
+.slogan {
+    position: center;
+    
+  }
+
+
+
+  
+.glavniSadrzaj {
+width:auto;
+border-radius: 20px;
+}
+
+.hst {
+    color: black;
+    background-color: aliceblue;
+    box-shadow: 2px 3px 3px 1px;
+}
+
+
+	
+#tabs {
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 20px;
+	float:left;
+	width:100%;
+	background:#e67819;
+	font-size:93%;
+	line-height:normal;
+	border-bottom:1px solid #DD740B;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 160px;
+	list-style:none;
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	margin:0;
+	padding:0 0 0 5px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+    box-shadow: 1px 1px 1px 1px;
+    background-color: orange;
+    border-radius: 20px;
+	float:left;
+	display:block;
+	padding:5px 15px 10px 10px;
+    color:rgb(0, 0, 0);
+    font-size: large;
+    margin-bottom: 3px;
+	}
+
+#tabs a span {float:none;}
+
+
+#tabs a:hover span {
+	color:rgb(151, 28, 28);
+	}
+
+
+    .reg{
+        box-shadow: 1px 1px 1px 1px;
+        width: auto;
+        background-color: orange;
+        border-radius: 20px;
+        margin-left: 15px;
+
+    }
+
+.registracija{
+    
+    vertical-align:top;
+    display: grid;
+    grid-template-columns: max-content;
+    width:15%;
+    padding-left: 30px;
+   
+
+}
+
+.registracija label{
+
+   display:inline-block;
+   vertical-align: horizontal;
+  
+  }
+
+.registracija input[type=submit]{
+
+  margin-top: 10px;
+  margin-left:30px;
+  margin-right:30px;
+
+}
+
+.prva_celina {
+border-radius: 20px;
+width:250px;
+
+margin-top: 20px;
+margin-bottom:20px;
+float: left;
+
+
+}
+
+.druga_celina{
+
+box-shadow: 1px 1px 4px 1px;
+
+width:555px;
+margin-top: 20px;
+margin-bottom:20px;
+margin-left:10px;
+margin-right:10px;
+float: left;
+
+
+
+}
+
+.sadrzaj {
+    vertical-align: top;
+    width: 160px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #ffff66;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding:3px;
+    
+}
+
+.deo {
+    width:550px;
+    height:800px;
+    overflow: scroll;
+   
+}
+.naziv {
+
+    text-align: center;
+}
+
+.cena{
+
+    text-align: center;
+}
+
+
+.kol {
+    width: 40px;
+}
+
+.korpa {
+    background-color: orange;
+}
+.korpa:hover{
+    background-color: orangered;
+}
+
+.image img {
+
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.treca_celina{
+border-radius: 20px;
+width:250px;
+
+margin-top: 20px;
+margin-bottom:20px;
+margin-left:10px;
+float: right;
+
+}
+
+
+.naslov_vesti{
+
+    text-align: center;
+    margin-right: 30px;
+}
+
+.podnaslov_vesti{
+    text-align: center;
+    margin-right: 30px;
+}
+
+
+
+.vesti{
+    
+    margin-right: 25px;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 20px;
+    width:auto;
+    background-color: orange;
+}
+
+.vesti_slika {
+
+    max-width: 100%;
+    min-width: 100%;
+   margin-left: 3px;
+   
+}
+
+.slika {
+    width: 220px;
+    border-radius: 20px;
+}
+
+.footer {
+border-radius: 20px;
+width:auto;
+margin-top:20px;
+clear:both;
+height:30px;
+background-color: orange;
+}
+
+.kontakt{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    
+}
